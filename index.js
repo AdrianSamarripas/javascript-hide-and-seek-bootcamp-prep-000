@@ -1,9 +1,9 @@
 getFirstSelector(selector);{
-  console.log(document.querySelector(selector));
+  console.log(document.querySelector('selector'));
 }
 
 nestedTarget(){
-  console.log(document.querySelector(#nested.Target))
+  console.log(document.querySelector('#nested').querySelector('.Target'))
 }
 
 increaseRankBy(n){

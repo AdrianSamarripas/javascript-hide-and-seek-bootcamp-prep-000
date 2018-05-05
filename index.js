@@ -1,9 +1,9 @@
-getFirstSelector(selector);{
-  console.log(document.querySelector('selector'));
+getFirstSelector(selector); {
+  return document.querySelector(selector);
 }
 
-nestedTarget(){
-  console.log(document.querySelector('#nested').querySelector('.Target'))
+nestedTarget(); {
+  return document.querySelector('#nested').querySelector('.Target');
 }
 
 increaseRankBy(n){
